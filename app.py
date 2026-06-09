@@ -9,17 +9,17 @@ from PIL import Image
 import io
 import sqlite3
 
-# ───────── PRIMERO: Configuración de página (DEBE SER LO PRIMERO) ─────────
+# ───────── 1. CONFIGURACIÓN DE PÁGINA (DEBE IR PRIMERO) ─────────
 st.set_page_config(page_title="Validador LED", layout="wide", initial_sidebar_state="collapsed")
 
-# ───────── CONFIGURACIÓN ─────────
+# ───────── 2. CONFIGURACIÓN ─────────
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DB_PATH = os.path.join(BASE_DIR, "auditoria_escaneos.db")
 COMBINACIONES_JSON = os.path.join(BASE_DIR, "combinaciones_validas.json")
 
 API_KEY = st.secrets.get("GEMINI_API_KEY") or os.getenv("GEMINI_API_KEY")
 
-# ───────── INICIALIZAR SESSION STATE ─────────
+# ───────── 3. INICIALIZAR SESSION STATE ─────────
 if 'driver_extraido' not in st.session_state:
     st.session_state.driver_extraido = None
 if 'driver_match' not in st.session_state:
@@ -27,60 +27,23 @@ if 'driver_match' not in st.session_state:
 if 'modelos_disponibles' not in st.session_state:
     st.session_state.modelos_disponibles = []
 
-# ───────── CSS PERSONALIZADO (RESPONSIVE PARA MÓVIL) ─────────
+# ───────── 4. CSS PERSONALIZADO ─────────
 st.markdown("""
 <style>
-/* Ocultar menú y footer en móvil para más espacio */
-#MainMenu {visibility: hidden;}
-footer {visibility: hidden;}
-header {visibility: hidden;}
-
-/* Títulos más compactos en móvil */
-.main-title {font-size: 1.3rem !important; text-align: center;}
-h1, h2, h3 {font-size: 1.1rem !important;}
-
-/* Inputs más grandes y fáciles de tocar en móvil */
-.stTextInput input, .stNumberInput input, .stSelectbox select {
-    font-size: 1rem !important;
-    padding: 0.5rem !important;
-    min-height: 44px !important; /* Tamaño mínimo para toque en Android */
-}
-.stTextInput label, .stNumberInput label, .stSelectbox label {
-    font-size: 0.9rem !important;
-    font-weight: 500;
-}
-
-/* Botones más grandes para dedos */
-.stButton button {
-    font-size: 1rem !important;
-    padding: 0.6rem 1.2rem !important;
-    min-height: 48px !important;
-    width: 100% !important; /* Botones full-width en móvil */
-}
-
-/* Cajas de mensaje legibles */
-.success-box, .error-box, .info-box {
-    padding: 1rem !important;
-    font-size: 0.95rem !important;
-    margin: 0.5rem 0 !important;
-}
-.success-box {background: #28a745 !important; color: white !important;}
-.error-box {background: #dc3545 !important; color: white !important;}
-.info-box {background: #d1ecf1 !important; color: #0c5460 !important;}
-
-/* Tabla de parámetros scrollable en pantallas pequeñas */
-.stTable {overflow-x: auto !important;}
-.stTable table {font-size: 0.8rem !important;}
-
-/* Ajuste de columnas en móvil */
-@media (max-width: 768px) {
-    .stColumns {flex-wrap: wrap !important;}
-    .stColumn {min-width: 100% !important; margin-bottom: 0.5rem !important;}
-}
+/* Reducir tamaños de texto */
+.main-title {font-size: 1.5rem !important;}
+.stTextInput label, .stNumberInput label, .stSelectbox label {font-size: 0.75rem !important;}
+.stTextInput input, .stNumberInput input, .stSelectbox select {font-size: 0.8rem !important;}
+.stButton button {font-size: 0.85rem !important; padding: 0.3rem 0.8rem !important;}
+.success-box {background: #28a745 !important; color: white !important; padding: 0.8rem; border-radius: 5px; font-size: 0.85rem; font-weight: bold; text-align: center;}
+.error-box {background: #dc3545 !important; color: white !important; padding: 0.8rem; border-radius: 5px; font-size: 0.85rem; font-weight: bold; text-align: center;}
+.info-box {background: #d1ecf1; padding: 0.8rem; border-radius: 5px; font-size: 0.8rem; color: #0c5460;}
+h1, h2, h3 {font-size: 1.3rem !important;}
+.stDataFrame {font-size: 0.75rem !important;}
 </style>
 """, unsafe_allow_html=True)
 
-# ───────── BASE DE DATOS ─────────
+# ───────── 5. BASE DE DATOS ─────────
 def init_db():
     conn = sqlite3.connect(DB_PATH)
     conn.execute('''CREATE TABLE IF NOT EXISTS escaneos (
@@ -101,15 +64,13 @@ def log_escaneo(operador, driver, config, paralelos, valido, params):
     conn.commit()
     conn.close()
 
-# ───────── VISIÓN IA ─────────
+# ───────── 6. VISIÓN IA ─────────
 def extraer_driver(img_bytes):
     if not API_KEY:
         st.error("🔑 API Key no configurada")
         return None
         
     client = genai.Client(api_key=API_KEY)
-    
-    # PROMPT MEJORADO PARA PRECISIÓN
     prompt = """
 Eres un experto en identificación de Drivers LED Tridonic y Philips.
 Analiza la imagen y extrae el MODELO EXACTO impreso en la etiqueta.
@@ -141,7 +102,7 @@ Devuelve SOLO la cadena de texto del modelo. Nada más.
         st.error(f"❌ Error IA: {e}")
         return None
 
-# ───────── UTILIDADES ─────────
+# ───────── 7. UTILIDADES ─────────
 @st.cache_data
 def cargar_combinaciones():
     if not os.path.exists(COMBINACIONES_JSON):
@@ -167,35 +128,53 @@ def buscar_driver_ia(texto_ia, combinaciones, umbral=75):
             mejor_score, mejor_match = score, driver_key
     return mejor_match if mejor_score >= umbral else None
 
-# ───────── INTERFAZ PRINCIPAL ─────────
-
+# ───────── 8. INTERFAZ PRINCIPAL ─────────
 st.markdown('<h1 class="main-title">⚡ Validador Driver + Placas</h1>', unsafe_allow_html=True)
 init_db()
 
-# Campo del operador en pantalla principal (visible en móvil)
-operador = st.text_input("👤 Operador", placeholder="Ingresa tu nombre o ID", key="input_operador")
-
-# Botón de reinicio en sidebar (opcional, solo para PC)
+# Sidebar - Operador
 with st.sidebar:
-    st.markdown("### ⚙️ Opciones")
-    if st.button("🔄 Reiniciar app", type="secondary", use_container_width=True):
+    operador = st.text_input("👤 Operador", placeholder="Nombre", label_visibility="collapsed")
+    st.markdown("---")
+    if st.button("🔄 Reiniciar", type="secondary", use_container_width=True):
         st.session_state.driver_extraido = None
         st.session_state.driver_match = None
-        st.session_state.modelos_disponibles = []
         st.rerun()
 
-# Campo de carga de foto
-col1, col2 = st.columns([2, 1])
-with col1:
-    uploaded = st.file_uploader("📸 Foto del Driver", type=["jpg", "jpeg", "png"], label_visibility="collapsed")
-with col2:
-    if uploaded:
-        st.success("✅ Imagen cargada")
-        # Botón para ver imagen completa usando expander
-        with st.expander("🖼️ Ver imagen completa", expanded=False):
-            img_full = Image.open(io.BytesIO(uploaded.read()))
-            st.image(img_full, width=400)
-            uploaded.seek(0)  # Resetear para poder leer de nuevo
+# PESTAÑAS: Subir archivo o Tomar foto con cámara
+tab1, tab2 = st.tabs(["📂 Subir archivo", "📸 Tomar foto"])
+
+uploaded_file = None
+camera_photo = None
+
+with tab1:
+    # Opción tradicional: subir desde galería o archivos del celular/computadora
+    uploaded_file = st.file_uploader(
+        "📸 Foto del Driver",
+        type=["jpg", "jpeg", "png"],
+        label_visibility="collapsed",
+        key="uploaded_file"
+    )
+
+with tab2:
+    # Opción para tomar una foto directa con la cámara del celular
+    camera_photo = st.camera_input(
+        "📷 Posiciona el driver y toma la foto",
+        key="camera_photo"
+    )
+
+# Prioridad: si se tomó una foto con cámara, usar esa. Si no, usar archivo subido.
+uploaded = camera_photo if camera_photo is not None else uploaded_file
+
+# Guardar los bytes una sola vez para evitar problemas de puntero al leer la imagen
+img_bytes = uploaded.getvalue() if uploaded is not None else None
+
+# Visualización de imagen cargada
+if img_bytes:
+    st.success("✅ Imagen cargada")
+    with st.expander("🖼️ Ver imagen completa", expanded=False):
+        img_full = Image.open(io.BytesIO(img_bytes))
+        st.image(img_full, width=400)
 
 # Cargar combinaciones
 combinaciones = cargar_combinaciones()
@@ -330,60 +309,31 @@ if st.session_state.driver_match and st.session_state.modelos_disponibles:
                 log_escaneo(operador, st.session_state.driver_match, placas_input, paralelos, True, params_found)
             else:
                 st.markdown('<div class="error-box">❌ COMBINACIÓN NO VÁLIDA</div>', unsafe_allow_html=True)
-                
                 st.info("💡 Ejemplos válidos:")
                 for i, comb in enumerate(driver_data["combinaciones_validas"][:3], 1):
                     placas_str = " + ".join([f"{p['en_serie']}x {p['modelo']}" for p in comb["placas"] if p.get("en_serie", 0) > 0])
                     st.write(f"{i}. {placas_str} | Paralelos: {comb['caminos_paralelo']}")
-                
                 log_escaneo(operador, st.session_state.driver_match, placas_input, paralelos, False, None)
 
-# Botón para extraer driver CON CAMPO EDITABLE (CORREGIDO)
-if uploaded and not st.session_state.driver_match:
-    # Paso 1: Botón para extraer con IA
+# Botón para extraer driver
+if img_bytes and not st.session_state.driver_match:
     if st.button("🔍 Extraer Driver", type="primary", use_container_width=True):
         if not operador:
             st.error("⚠️ Ingresá el operador en el menú lateral primero")
             st.stop()
         
         with st.spinner("🤖 Leyendo..."):
-            driver_leido = extraer_driver(uploaded.read())
+            driver_leido = extraer_driver(img_bytes)
         
         if driver_leido:
-            # Guardar en session_state para persistencia entre recargas
             st.session_state.driver_extraido = driver_leido
-            st.session_state.driver_corregido = driver_leido  # Valor inicial editable
-            st.session_state.mostrar_editor = True  # Flag para mostrar editor
-            st.rerun()  # Recargar para mostrar el editor
-    
-    # Paso 2: Mostrar editor si el flag está activo
-    if st.session_state.get('mostrar_editor', False) and st.session_state.driver_extraido:
-        st.info("📝 Verificá que el modelo detectado sea correcto. Podés editarlo si es necesario.")
-        
-        # Campo editable que mantiene el valor entre recargas
-        driver_corregido = st.text_input(
-            "✏️ Modelo detectado (editable):",
-            value=st.session_state.driver_corregido,
-            help="Si la IA leyó mal, corregí el texto manualmente antes de continuar",
-            key="input_driver_corregido"
-        )
-        
-        # Actualizar session_state con lo que escribe el usuario
-        st.session_state.driver_corregido = driver_corregido
-        
-        # Botón para confirmar y buscar
-        if st.button("✅ Confirmar y Buscar", type="primary", use_container_width=True):
-            driver_match = buscar_driver_ia(st.session_state.driver_corregido, combinaciones)
+            driver_match = buscar_driver_ia(driver_leido, combinaciones)
             
             if driver_match:
-                # Guardar resultado y limpiar flags
                 st.session_state.driver_match = driver_match
                 st.session_state.modelos_disponibles = obtener_modelos_placas(combinaciones)
-                st.session_state.mostrar_editor = False  # Ocultar editor
-                st.success(f"✅ Driver confirmado: {driver_match}")
-                st.rerun()  # Recargar para mostrar formulario de placas
+                st.success(f"✅ {driver_match}")
+                st.rerun()
             else:
-                st.error(f"❌ Driver no encontrado: {st.session_state.driver_corregido}")
-                st.write("💡 Drivers disponibles en la base:")
-                for drv in list(combinaciones.keys())[:10]:
-                    st.write(f"  • {drv}")
+                st.error(f"❌ Driver no encontrado: {driver_leido}")
+                st.write("Drivers disponibles:", list(combinaciones.keys())[:5])
