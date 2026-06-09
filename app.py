@@ -9,6 +9,9 @@ from PIL import Image
 import io
 import sqlite3
 
+# ───────── PRIMERO: Configuración de página (DEBE SER LO PRIMERO) ─────────
+st.set_page_config(page_title="Validador LED", layout="wide", initial_sidebar_state="collapsed")
+
 # ───────── CONFIGURACIÓN ─────────
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DB_PATH = os.path.join(BASE_DIR, "auditoria_escaneos.db")
