@@ -168,7 +168,6 @@ def buscar_driver_ia(texto_ia, combinaciones, umbral=75):
     return mejor_match if mejor_score >= umbral else None
 
 # ───────── INTERFAZ PRINCIPAL ─────────
-st.set_page_config(page_title="Validador LED", layout="wide", initial_sidebar_state="collapsed")
 
 st.markdown('<h1 class="main-title">⚡ Validador Driver + Placas</h1>', unsafe_allow_html=True)
 init_db()
