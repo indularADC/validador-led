@@ -1,0 +1,4979 @@
+{
+  "DEMAS LED 18W 36-63V 280mA": {
+    "combinaciones_validas": [
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 1},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 51.35,
+          "pled": 14.38,
+          "flujo": 2517.48,
+          "plinea": "ND",
+          "fp": "ND",
+          "tdh": "ND"
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 1},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 39.94,
+          "pled": 11.18,
+          "flujo": 1958.04,
+          "plinea": "ND",
+          "fp": "ND",
+          "tdh": "ND"
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 1},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 59.91,
+          "pled": 16.78,
+          "flujo": 2937.06,
+          "plinea": "ND",
+          "fp": "ND",
+          "tdh": "ND"
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA BR HV4 2ft 2200lm", "en_serie": 1},
+          {"modelo": "CERTA BR HV4 1ft 1100lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 47.73,
+          "pled": 13.36,
+          "flujo": 2055.72,
+          "plinea": "ND",
+          "fp": "ND",
+          "tdh": "ND"
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 1},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 42.79,
+          "pled": 11.98,
+          "flujo": 2097.9,
+          "plinea": "ND",
+          "fp": "ND",
+          "tdh": "ND"
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 2},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 57.06,
+          "pled": 15.98,
+          "flujo": 2797.2,
+          "plinea": "ND",
+          "fp": "ND",
+          "tdh": "ND"
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX LUPA", "en_serie": 4}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 45.65,
+          "pled": 12.78,
+          "flujo": 2237.76,
+          "plinea": "ND",
+          "fp": "ND",
+          "tdh": "ND"
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX LUPA", "en_serie": 5}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 57.06,
+          "pled": 15.98,
+          "flujo": 2797.2,
+          "plinea": "ND",
+          "fp": "ND",
+          "tdh": "ND"
+        }
+      }
+    ]
+  },
+  "LC35w 200-350mA flexCC Ip SNC3 a 300mA": {
+    "combinaciones_validas": [
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 2},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 68.74,
+          "pled": 20.62,
+          "flujo": 3543.12,
+          "plinea": 22.62,
+          "fp": 0.91,
+          "tdh": 8.0
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 2},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 85.93,
+          "pled": 25.78,
+          "flujo": 4428.9,
+          "plinea": 28.01,
+          "fp": 0.93,
+          "tdh": 8.0
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 3},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 103.12,
+          "pled": 30.93,
+          "flujo": 5314.68,
+          "plinea": 33.33,
+          "fp": 0.95,
+          "tdh": 8.0
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 3},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 120.3,
+          "pled": 36.09,
+          "flujo": 6200.46,
+          "plinea": 38.68,
+          "fp": 0.97,
+          "tdh": 8.0
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 1},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 60.15,
+          "pled": 18.05,
+          "flujo": 3100.23,
+          "plinea": 19.9,
+          "fp": 0.9,
+          "tdh": 8.0
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 2},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 80.2,
+          "pled": 24.06,
+          "flujo": 4133.64,
+          "plinea": 26.22,
+          "fp": 0.93,
+          "tdh": 8.0
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 2},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 100.25,
+          "pled": 30.08,
+          "flujo": 5167.05,
+          "plinea": 32.43,
+          "fp": 0.95,
+          "tdh": 8.0
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 3},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 120.3,
+          "pled": 36.09,
+          "flujo": 6200.46,
+          "plinea": 38.68,
+          "fp": 0.97,
+          "tdh": 8.0
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA BR HV4 2ft 2200lm", "en_serie": 1},
+          {"modelo": "CERTA BR HV4 1ft 1100lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 72.0,
+          "pled": 21.6,
+          "flujo": 3330.0,
+          "plinea": 23.65,
+          "fp": 0.91,
+          "tdh": 8.0
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA BR HV4 2ft 2200lm", "en_serie": 2},
+          {"modelo": "CERTA BR HV4 1ft 1100lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 96.0,
+          "pled": 28.8,
+          "flujo": 4440.0,
+          "plinea": 31.11,
+          "fp": 0.95,
+          "tdh": 8.0
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA BR HV4 2ft 2200lm", "en_serie": 2},
+          {"modelo": "CERTA BR HV4 1ft 1100lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 120.0,
+          "pled": 36.0,
+          "flujo": 5550.0,
+          "plinea": 38.58,
+          "fp": 0.97,
+          "tdh": 8.0
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 2},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 57.29,
+          "pled": 17.19,
+          "flujo": 2952.6,
+          "plinea": 18.99,
+          "fp": 0.89,
+          "tdh": 8.0
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 2},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 71.61,
+          "pled": 21.48,
+          "flujo": 3690.75,
+          "plinea": 23.53,
+          "fp": 0.91,
+          "tdh": 8.0
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 3},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 85.93,
+          "pled": 25.78,
+          "flujo": 4428.9,
+          "plinea": 28.01,
+          "fp": 0.93,
+          "tdh": 8.0
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 3},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 100.25,
+          "pled": 30.08,
+          "flujo": 5167.05,
+          "plinea": 32.43,
+          "fp": 0.95,
+          "tdh": 8.0
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 4},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 114.57,
+          "pled": 34.37,
+          "flujo": 5905.2,
+          "plinea": 36.9,
+          "fp": 0.96,
+          "tdh": 8.0
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX LUPA", "en_serie": 5}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 57.29,
+          "pled": 17.19,
+          "flujo": 2952.6,
+          "plinea": 18.99,
+          "fp": 0.89,
+          "tdh": 8.0
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX LUPA", "en_serie": 6}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 68.74,
+          "pled": 20.62,
+          "flujo": 3543.12,
+          "plinea": 22.62,
+          "fp": 0.91,
+          "tdh": 8.0
+        }
+      }
+    ]
+  },
+  "LC35w 200-350mA flexCC Ip SNC3 a 350mA": {
+    "combinaciones_validas": [
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 1},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 52.07,
+          "pled": 18.22,
+          "flujo": 3006.99,
+          "plinea": 20.08,
+          "fp": 0.9,
+          "tdh": 3.07
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 2},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 69.43,
+          "pled": 24.3,
+          "flujo": 4009.32,
+          "plinea": 26.47,
+          "fp": 0.93,
+          "tdh": 3.24
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 2},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 86.78,
+          "pled": 30.37,
+          "flujo": 5011.65,
+          "plinea": 32.74,
+          "fp": 0.95,
+          "tdh": 4.84
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 1},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 60.75,
+          "pled": 21.26,
+          "flujo": 3508.16,
+          "plinea": 23.29,
+          "fp": 0.91,
+          "tdh": 3.38
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 2},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 81.0,
+          "pled": 28.35,
+          "flujo": 4677.54,
+          "plinea": 30.65,
+          "fp": 0.94,
+          "tdh": 3.06
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 2},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 101.25,
+          "pled": 35.44,
+          "flujo": 5846.93,
+          "plinea": 38.0,
+          "fp": 0.97,
+          "tdh": 3.82
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA BR HV4 2ft 2200lm", "en_serie": 1},
+          {"modelo": "CERTA BR HV4 1ft 1100lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 72.96,
+          "pled": 25.54,
+          "flujo": 3774.0,
+          "plinea": 27.76,
+          "fp": 0.93,
+          "tdh": 3.18
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA BR HV4 2ft 2200lm", "en_serie": 2},
+          {"modelo": "CERTA BR HV4 1ft 1100lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 97.28,
+          "pled": 34.05,
+          "flujo": 5032.0,
+          "plinea": 36.56,
+          "fp": 0.96,
+          "tdh": 4.1
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 2},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 57.85,
+          "pled": 20.25,
+          "flujo": 3341.1,
+          "plinea": 22.23,
+          "fp": 0.91,
+          "tdh": 3.42
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 2},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 72.32,
+          "pled": 25.31,
+          "flujo": 4176.38,
+          "plinea": 27.52,
+          "fp": 0.93,
+          "tdh": 3.19
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 3},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 86.78,
+          "pled": 30.37,
+          "flujo": 5011.65,
+          "plinea": 32.74,
+          "fp": 0.95,
+          "tdh": 4.84
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 3},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 101.25,
+          "pled": 35.44,
+          "flujo": 5846.93,
+          "plinea": 38.0,
+          "fp": 0.97,
+          "tdh": 3.82
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX LUPA", "en_serie": 5}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 57.85,
+          "pled": 20.25,
+          "flujo": 3341.1,
+          "plinea": 22.23,
+          "fp": 0.91,
+          "tdh": 3.42
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX LUPA", "en_serie": 6}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 69.43,
+          "pled": 24.3,
+          "flujo": 4009.32,
+          "plinea": 26.47,
+          "fp": 0.93,
+          "tdh": 3.24
+        }
+      }
+    ]
+  },
+  "CERTA 19W 200/350mA 54V 230V a 200mA": {
+    "combinaciones_validas": [
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 1},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 50.54,
+          "pled": 10.11,
+          "flujo": 1864.8,
+          "plinea": 12.24,
+          "fp": 0.94,
+          "tdh": 16.55
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 1},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 39.31,
+          "pled": 7.86,
+          "flujo": 1450.4,
+          "plinea": 9.67,
+          "fp": 0.92,
+          "tdh": 19.08
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA BR HV4 2ft 2200lm", "en_serie": 1},
+          {"modelo": "CERTA BR HV4 1ft 1100lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 46.65,
+          "pled": 9.33,
+          "flujo": 1398.6,
+          "plinea": 11.36,
+          "fp": 0.94,
+          "tdh": 17.51
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 1},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 42.11,
+          "pled": 8.42,
+          "flujo": 1554.0,
+          "plinea": 10.32,
+          "fp": 0.93,
+          "tdh": 18.48
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX LUPA", "en_serie": 4}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 44.92,
+          "pled": 8.98,
+          "flujo": 1657.6,
+          "plinea": 10.97,
+          "fp": 0.93,
+          "tdh": 17.88
+        }
+      }
+    ]
+  },
+  "CERTA 19W 200/350mA 54V 230V a 350mA": {
+    "combinaciones_validas": [
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 1},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 52.07,
+          "pled": 18.22,
+          "flujo": 3006.99,
+          "plinea": 20.91,
+          "fp": 0.97,
+          "tdh": 12.62
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 1},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 40.5,
+          "pled": 14.17,
+          "flujo": 2338.77,
+          "plinea": 16.45,
+          "fp": 0.96,
+          "tdh": 15.26
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA BR HV4 2ft 2200lm", "en_serie": 1},
+          {"modelo": "CERTA BR HV4 1ft 1100lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 48.64,
+          "pled": 17.02,
+          "flujo": 2516.0,
+          "plinea": 19.59,
+          "fp": 0.96,
+          "tdh": 13.42
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 1},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 43.39,
+          "pled": 15.19,
+          "flujo": 2505.83,
+          "plinea": 17.57,
+          "fp": 0.96,
+          "tdh": 14.62
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX LUPA", "en_serie": 4}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 46.28,
+          "pled": 16.2,
+          "flujo": 2672.88,
+          "plinea": 18.68,
+          "fp": 0.96,
+          "tdh": 13.97
+        }
+      }
+    ]
+  },
+  "CERTA 21W 0,5A 42V 230V SELV": {
+    "combinaciones_validas": [
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 1},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 35.49,
+          "pled": 17.75,
+          "flujo": 2894.88,
+          "plinea": "ND",
+          "fp": "ND",
+          "tdh": "ND"
+        }
+      }
+    ]
+  },
+  "CERTA 30W 350mA 85V 230V": {
+    "combinaciones_validas": [
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 1},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 52.07,
+          "pled": 18.22,
+          "flujo": 3006.99,
+          "plinea": 20.06,
+          "fp": 0.96,
+          "tdh": 5.77
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 2},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 69.43,
+          "pled": 24.3,
+          "flujo": 4009.32,
+          "plinea": 26.58,
+          "fp": 0.97,
+          "tdh": 5.18
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 1},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 60.75,
+          "pled": 21.26,
+          "flujo": 3508.16,
+          "plinea": 23.34,
+          "fp": 0.96,
+          "tdh": 5.55
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 2},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 81.0,
+          "pled": 28.35,
+          "flujo": 4677.54,
+          "plinea": 30.88,
+          "fp": 0.98,
+          "tdh": 4.77
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA BR HV4 2ft 2200lm", "en_serie": 1},
+          {"modelo": "CERTA BR HV4 1ft 1100lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 72.96,
+          "pled": 25.54,
+          "flujo": 3774.0,
+          "plinea": 27.9,
+          "fp": 0.97,
+          "tdh": 5.04
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 2},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 57.85,
+          "pled": 20.25,
+          "flujo": 3341.1,
+          "plinea": 22.26,
+          "fp": 0.96,
+          "tdh": 5.67
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 2},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 72.32,
+          "pled": 25.31,
+          "flujo": 4176.38,
+          "plinea": 27.66,
+          "fp": 0.97,
+          "tdh": 5.06
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX LUPA", "en_serie": 5}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 57.85,
+          "pled": 20.25,
+          "flujo": 3341.1,
+          "plinea": 22.26,
+          "fp": 0.96,
+          "tdh": 5.67
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX LUPA", "en_serie": 6}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 69.43,
+          "pled": 24.3,
+          "flujo": 4009.32,
+          "plinea": 26.58,
+          "fp": 0.97,
+          "tdh": 5.18
+        }
+      }
+    ]
+  },
+  "CERTA 40W 350mA 115V 230V": {
+    "combinaciones_validas": [
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 2},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 86.78,
+          "pled": 30.37,
+          "flujo": 5011.65,
+          "plinea": 34.1,
+          "fp": 0.99,
+          "tdh": 4.1
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 3},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 104.14,
+          "pled": 36.45,
+          "flujo": 6013.98,
+          "plinea": 40.52,
+          "fp": 0.99,
+          "tdh": 3.34
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 2},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 81.0,
+          "pled": 28.35,
+          "flujo": 4677.54,
+          "plinea": 31.93,
+          "fp": 0.98,
+          "tdh": 4.35
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 2},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 101.25,
+          "pled": 35.44,
+          "flujo": 5846.93,
+          "plinea": 39.46,
+          "fp": 0.99,
+          "tdh": 3.46
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA BR HV4 2ft 2200lm", "en_serie": 1},
+          {"modelo": "CERTA BR HV4 1ft 1100lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 72.96,
+          "pled": 25.54,
+          "flujo": 3774.0,
+          "plinea": 28.88,
+          "fp": 0.98,
+          "tdh": 4.67
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA BR HV4 2ft 2200lm", "en_serie": 2},
+          {"modelo": "CERTA BR HV4 1ft 1100lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 97.28,
+          "pled": 34.05,
+          "flujo": 5032.0,
+          "plinea": 38.0,
+          "fp": 0.99,
+          "tdh": 3.64
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 2},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 72.32,
+          "pled": 25.31,
+          "flujo": 4176.38,
+          "plinea": 28.63,
+          "fp": 0.98,
+          "tdh": 4.7
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 3},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 86.78,
+          "pled": 30.37,
+          "flujo": 5011.65,
+          "plinea": 34.1,
+          "fp": 0.99,
+          "tdh": 4.1
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 3},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 101.25,
+          "pled": 35.44,
+          "flujo": 5846.93,
+          "plinea": 39.46,
+          "fp": 0.99,
+          "tdh": 3.46
+        }
+      }
+    ]
+  },
+  "CERTA 44W 200/350mA 125V 230V a 200mA": {
+    "combinaciones_validas": [
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 2},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 84.23,
+          "pled": 16.85,
+          "flujo": 3108.0,
+          "plinea": 18.81,
+          "fp": 0.91,
+          "tdh": 16.87
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 3},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 101.07,
+          "pled": 20.21,
+          "flujo": 3729.6,
+          "plinea": 22.43,
+          "fp": 0.93,
+          "tdh": 14.4
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 3},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 117.92,
+          "pled": 23.58,
+          "flujo": 4351.2,
+          "plinea": 26.09,
+          "fp": 0.94,
+          "tdh": 12.89
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 2},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 78.61,
+          "pled": 15.72,
+          "flujo": 2900.8,
+          "plinea": 17.59,
+          "fp": 0.9,
+          "tdh": 17.71
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 2},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 98.26,
+          "pled": 19.65,
+          "flujo": 3626.0,
+          "plinea": 21.83,
+          "fp": 0.93,
+          "tdh": 14.76
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 3},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 117.92,
+          "pled": 23.58,
+          "flujo": 4351.2,
+          "plinea": 26.09,
+          "fp": 0.94,
+          "tdh": 12.89
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA BR HV4 2ft 2200lm", "en_serie": 2},
+          {"modelo": "CERTA BR HV4 1ft 1100lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 93.3,
+          "pled": 18.66,
+          "flujo": 2797.2,
+          "plinea": 20.76,
+          "fp": 0.92,
+          "tdh": 15.5
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA BR HV4 2ft 2200lm", "en_serie": 2},
+          {"modelo": "CERTA BR HV4 1ft 1100lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 116.63,
+          "pled": 23.33,
+          "flujo": 3496.5,
+          "plinea": 25.81,
+          "fp": 0.94,
+          "tdh": 13.0
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 3},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 84.23,
+          "pled": 16.85,
+          "flujo": 3108.0,
+          "plinea": 18.81,
+          "fp": 0.91,
+          "tdh": 16.87
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 3},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 98.26,
+          "pled": 19.65,
+          "flujo": 3626.0,
+          "plinea": 21.83,
+          "fp": 0.93,
+          "tdh": 14.76
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 4},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 112.3,
+          "pled": 22.46,
+          "flujo": 4144.0,
+          "plinea": 24.87,
+          "fp": 0.94,
+          "tdh": 13.39
+        }
+      }
+    ]
+  },
+  "CERTA 44W 200/350mA 125V 230V a 350mA": {
+    "combinaciones_validas": [
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 2},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 86.78,
+          "pled": 30.37,
+          "flujo": 5011.65,
+          "plinea": 33.59,
+          "fp": 0.96,
+          "tdh": 13.69
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 3},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 104.14,
+          "pled": 36.45,
+          "flujo": 6013.98,
+          "plinea": 40.23,
+          "fp": 0.96,
+          "tdh": 11.87
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 3},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 121.49,
+          "pled": 42.52,
+          "flujo": 7016.31,
+          "plinea": 46.86,
+          "fp": 0.97,
+          "tdh": 10.3
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 2},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 81.0,
+          "pled": 28.35,
+          "flujo": 4677.54,
+          "plinea": 31.43,
+          "fp": 0.95,
+          "tdh": 14.56
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 2},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 101.25,
+          "pled": 35.44,
+          "flujo": 5846.93,
+          "plinea": 39.13,
+          "fp": 0.96,
+          "tdh": 12.17
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 3},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 121.49,
+          "pled": 42.52,
+          "flujo": 7016.31,
+          "plinea": 46.86,
+          "fp": 0.97,
+          "tdh": 10.3
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA BR HV4 2ft 2200lm", "en_serie": 2},
+          {"modelo": "CERTA BR HV4 1ft 1100lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 97.28,
+          "pled": 34.05,
+          "flujo": 5032.0,
+          "plinea": 37.61,
+          "fp": 0.96,
+          "tdh": 12.59
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA BR HV4 2ft 2200lm", "en_serie": 2},
+          {"modelo": "CERTA BR HV4 1ft 1100lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 121.6,
+          "pled": 42.56,
+          "flujo": 6290.0,
+          "plinea": 46.9,
+          "fp": 0.97,
+          "tdh": 10.29
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 3},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 86.78,
+          "pled": 30.37,
+          "flujo": 5011.65,
+          "plinea": 33.59,
+          "fp": 0.96,
+          "tdh": 13.69
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 3},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 101.25,
+          "pled": 35.44,
+          "flujo": 5846.93,
+          "plinea": 39.13,
+          "fp": 0.96,
+          "tdh": 12.17
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 4},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 115.71,
+          "pled": 40.5,
+          "flujo": 6682.2,
+          "plinea": 44.65,
+          "fp": 0.97,
+          "tdh": 10.7
+        }
+      }
+    ]
+  },
+  "CERTA 60W 350mA 170V 230V": {
+    "combinaciones_validas": [
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 3},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 121.49,
+          "pled": 42.52,
+          "flujo": 7016.31,
+          "plinea": 46.96,
+          "fp": 0.98,
+          "tdh": 3.74
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 4},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 138.85,
+          "pled": 48.6,
+          "flujo": 8018.64,
+          "plinea": 53.47,
+          "fp": 0.99,
+          "tdh": 3.42
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 4},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 156.21,
+          "pled": 54.67,
+          "flujo": 9020.97,
+          "plinea": 60.01,
+          "fp": 0.99,
+          "tdh": 3.26
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 3},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 121.49,
+          "pled": 42.52,
+          "flujo": 7016.31,
+          "plinea": 46.96,
+          "fp": 0.98,
+          "tdh": 3.74
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 3},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 141.74,
+          "pled": 49.61,
+          "flujo": 8185.7,
+          "plinea": 54.56,
+          "fp": 0.99,
+          "tdh": 3.37
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 4},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 161.99,
+          "pled": 56.7,
+          "flujo": 9355.08,
+          "plinea": 62.18,
+          "fp": 0.99,
+          "tdh": 3.24
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA BR HV4 2ft 2200lm", "en_serie": 2},
+          {"modelo": "CERTA BR HV4 1ft 1100lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 121.6,
+          "pled": 42.56,
+          "flujo": 6290.0,
+          "plinea": 47.0,
+          "fp": 0.98,
+          "tdh": 3.74
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA BR HV4 2ft 2200lm", "en_serie": 3},
+          {"modelo": "CERTA BR HV4 1ft 1100lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 145.92,
+          "pled": 51.07,
+          "flujo": 7548.0,
+          "plinea": 56.14,
+          "fp": 0.99,
+          "tdh": 3.3
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 4},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 115.71,
+          "pled": 40.5,
+          "flujo": 6682.2,
+          "plinea": 44.79,
+          "fp": 0.98,
+          "tdh": 3.9
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 4},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 130.17,
+          "pled": 45.56,
+          "flujo": 7517.48,
+          "plinea": 50.19,
+          "fp": 0.98,
+          "tdh": 3.57
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 5},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 144.64,
+          "pled": 50.62,
+          "flujo": 8352.75,
+          "plinea": 55.65,
+          "fp": 0.99,
+          "tdh": 3.32
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 5},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 159.1,
+          "pled": 55.69,
+          "flujo": 9188.03,
+          "plinea": 61.1,
+          "fp": 0.99,
+          "tdh": 3.25
+        }
+      }
+    ]
+  },
+  "CERTA 65W 200/350mA 185V 230V a 200mA": {
+    "combinaciones_validas": [
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 4},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 134.76,
+          "pled": 26.95,
+          "flujo": 4972.8,
+          "plinea": 29.67,
+          "fp": 0.94,
+          "tdh": 13.67
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 4},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 151.61,
+          "pled": 30.32,
+          "flujo": 5594.4,
+          "plinea": 33.31,
+          "fp": 0.95,
+          "tdh": 12.47
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 5},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 168.45,
+          "pled": 33.69,
+          "flujo": 6216.0,
+          "plinea": 36.96,
+          "fp": 0.95,
+          "tdh": 12.18
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 3},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 137.57,
+          "pled": 27.51,
+          "flujo": 5076.4,
+          "plinea": 30.28,
+          "fp": 0.94,
+          "tdh": 13.45
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 4},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 157.22,
+          "pled": 31.44,
+          "flujo": 5801.6,
+          "plinea": 34.53,
+          "fp": 0.95,
+          "tdh": 12.38
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 4},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 176.87,
+          "pled": 35.37,
+          "flujo": 6526.8,
+          "plinea": 38.77,
+          "fp": 0.96,
+          "tdh": 12.04
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA BR HV4 2ft 2200lm", "en_serie": 3},
+          {"modelo": "CERTA BR HV4 1ft 1100lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 139.95,
+          "pled": 27.99,
+          "flujo": 4195.8,
+          "plinea": 30.79,
+          "fp": 0.94,
+          "tdh": 13.27
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA BR HV4 2ft 2200lm", "en_serie": 3},
+          {"modelo": "CERTA BR HV4 1ft 1100lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 163.28,
+          "pled": 32.66,
+          "flujo": 4895.1,
+          "plinea": 35.84,
+          "fp": 0.95,
+          "tdh": 12.27
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 4},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 126.34,
+          "pled": 25.27,
+          "flujo": 4662.0,
+          "plinea": 27.84,
+          "fp": 0.93,
+          "tdh": 14.31
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 5},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 140.38,
+          "pled": 28.08,
+          "flujo": 5180.0,
+          "plinea": 30.88,
+          "fp": 0.94,
+          "tdh": 13.24
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 5},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 154.41,
+          "pled": 30.88,
+          "flujo": 5698.0,
+          "plinea": 33.92,
+          "fp": 0.95,
+          "tdh": 12.42
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 6},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 168.45,
+          "pled": 33.69,
+          "flujo": 6216.0,
+          "plinea": 36.96,
+          "fp": 0.95,
+          "tdh": 12.18
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 6},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 182.49,
+          "pled": 36.5,
+          "flujo": 6734.0,
+          "plinea": 39.98,
+          "fp": 0.96,
+          "tdh": 11.94
+        }
+      }
+    ]
+  },
+  "CERTA 65W 200/350mA 185V 230V a 350mA": {
+    "combinaciones_validas": [
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 3},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 121.49,
+          "pled": 42.52,
+          "flujo": 7016.31,
+          "plinea": 46.42,
+          "fp": 0.97,
+          "tdh": 9.73
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 4},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 138.85,
+          "pled": 48.6,
+          "flujo": 8018.64,
+          "plinea": 52.96,
+          "fp": 0.97,
+          "tdh": 8.98
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 4},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 156.21,
+          "pled": 54.67,
+          "flujo": 9020.97,
+          "plinea": 59.47,
+          "fp": 0.97,
+          "tdh": 9.23
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 5},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 173.56,
+          "pled": 60.75,
+          "flujo": 10023.3,
+          "plinea": 65.95,
+          "fp": 0.98,
+          "tdh": 10.33
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 3},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 121.49,
+          "pled": 42.52,
+          "flujo": 7016.31,
+          "plinea": 46.42,
+          "fp": 0.97,
+          "tdh": 9.73
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 3},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 141.74,
+          "pled": 49.61,
+          "flujo": 8185.7,
+          "plinea": 54.05,
+          "fp": 0.97,
+          "tdh": 8.85
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 4},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 161.99,
+          "pled": 56.7,
+          "flujo": 9355.08,
+          "plinea": 61.63,
+          "fp": 0.97,
+          "tdh": 9.06
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 4},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 182.24,
+          "pled": 63.78,
+          "flujo": 10524.47,
+          "plinea": 69.22,
+          "fp": 0.98,
+          "tdh": 10.02
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA BR HV4 2ft 2200lm", "en_serie": 2},
+          {"modelo": "CERTA BR HV4 1ft 1100lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 121.6,
+          "pled": 42.56,
+          "flujo": 6290.0,
+          "plinea": 46.46,
+          "fp": 0.97,
+          "tdh": 9.73
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA BR HV4 2ft 2200lm", "en_serie": 3},
+          {"modelo": "CERTA BR HV4 1ft 1100lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 145.92,
+          "pled": 51.07,
+          "flujo": 7548.0,
+          "plinea": 55.61,
+          "fp": 0.97,
+          "tdh": 9.51
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA BR HV4 2ft 2200lm", "en_serie": 3},
+          {"modelo": "CERTA BR HV4 1ft 1100lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 170.24,
+          "pled": 59.58,
+          "flujo": 8806.0,
+          "plinea": 64.7,
+          "fp": 0.97,
+          "tdh": 8.83
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 4},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 130.17,
+          "pled": 45.56,
+          "flujo": 7517.48,
+          "plinea": 49.69,
+          "fp": 0.97,
+          "tdh": 9.35
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 5},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 144.64,
+          "pled": 50.62,
+          "flujo": 8352.75,
+          "plinea": 55.13,
+          "fp": 0.97,
+          "tdh": 9.55
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 5},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 159.1,
+          "pled": 55.69,
+          "flujo": 9188.03,
+          "plinea": 60.55,
+          "fp": 0.97,
+          "tdh": 9.15
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 6},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 173.56,
+          "pled": 60.75,
+          "flujo": 10023.3,
+          "plinea": 65.95,
+          "fp": 0.98,
+          "tdh": 10.33
+        }
+      }
+    ]
+  },
+  "XITANIUM 75W 0.12-0.40A 215V 230V": {
+    "combinaciones_validas": [
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 3},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 104.14,
+          "pled": 36.45,
+          "flujo": 6013.98,
+          "plinea": 39.06,
+          "fp": 0.95,
+          "tdh": 5.28
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 3},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 121.49,
+          "pled": 42.52,
+          "flujo": 7016.31,
+          "plinea": 45.56,
+          "fp": 0.96,
+          "tdh": 5.18
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 4},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 138.85,
+          "pled": 48.6,
+          "flujo": 8018.64,
+          "plinea": 52.05,
+          "fp": 0.96,
+          "tdh": 5.08
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 4},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 156.21,
+          "pled": 54.67,
+          "flujo": 9020.97,
+          "plinea": 58.54,
+          "fp": 0.97,
+          "tdh": 4.98
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 5},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 173.56,
+          "pled": 60.75,
+          "flujo": 10023.3,
+          "plinea": 65.02,
+          "fp": 0.98,
+          "tdh": 4.88
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 5},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 190.92,
+          "pled": 66.82,
+          "flujo": 11025.63,
+          "plinea": 71.5,
+          "fp": 0.98,
+          "tdh": 4.78
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 6},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 208.28,
+          "pled": 72.9,
+          "flujo": 12027.96,
+          "plinea": 77.97,
+          "fp": 0.99,
+          "tdh": 4.68
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 2},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 101.25,
+          "pled": 35.44,
+          "flujo": 5846.93,
+          "plinea": 37.98,
+          "fp": 0.95,
+          "tdh": 5.29
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 3},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 121.49,
+          "pled": 42.52,
+          "flujo": 7016.31,
+          "plinea": 45.56,
+          "fp": 0.96,
+          "tdh": 5.18
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 3},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 141.74,
+          "pled": 49.61,
+          "flujo": 8185.7,
+          "plinea": 53.13,
+          "fp": 0.96,
+          "tdh": 5.06
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 4},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 161.99,
+          "pled": 56.7,
+          "flujo": 9355.08,
+          "plinea": 60.7,
+          "fp": 0.97,
+          "tdh": 4.95
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 4},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 182.24,
+          "pled": 63.78,
+          "flujo": 10524.47,
+          "plinea": 68.26,
+          "fp": 0.98,
+          "tdh": 4.83
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 5},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 202.49,
+          "pled": 70.87,
+          "flujo": 11693.85,
+          "plinea": 75.82,
+          "fp": 0.99,
+          "tdh": 4.72
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA BR HV4 2ft 2200lm", "en_serie": 2},
+          {"modelo": "CERTA BR HV4 1ft 1100lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 121.6,
+          "pled": 42.56,
+          "flujo": 6290.0,
+          "plinea": 45.6,
+          "fp": 0.96,
+          "tdh": 5.18
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA BR HV4 2ft 2200lm", "en_serie": 3},
+          {"modelo": "CERTA BR HV4 1ft 1100lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 145.92,
+          "pled": 51.07,
+          "flujo": 7548.0,
+          "plinea": 54.69,
+          "fp": 0.97,
+          "tdh": 5.04
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA BR HV4 2ft 2200lm", "en_serie": 3},
+          {"modelo": "CERTA BR HV4 1ft 1100lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 170.24,
+          "pled": 59.58,
+          "flujo": 8806.0,
+          "plinea": 63.78,
+          "fp": 0.97,
+          "tdh": 4.9
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA BR HV4 2ft 2200lm", "en_serie": 4},
+          {"modelo": "CERTA BR HV4 1ft 1100lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 194.56,
+          "pled": 68.1,
+          "flujo": 10064.0,
+          "plinea": 72.86,
+          "fp": 0.98,
+          "tdh": 4.76
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 3},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 101.25,
+          "pled": 35.44,
+          "flujo": 5846.93,
+          "plinea": 37.98,
+          "fp": 0.95,
+          "tdh": 5.29
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 4},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 115.71,
+          "pled": 40.5,
+          "flujo": 6682.2,
+          "plinea": 43.39,
+          "fp": 0.96,
+          "tdh": 5.21
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 4},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 130.17,
+          "pled": 45.56,
+          "flujo": 7517.48,
+          "plinea": 48.8,
+          "fp": 0.96,
+          "tdh": 5.13
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 5},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 144.64,
+          "pled": 50.62,
+          "flujo": 8352.75,
+          "plinea": 54.21,
+          "fp": 0.97,
+          "tdh": 5.05
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 5},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 159.1,
+          "pled": 55.69,
+          "flujo": 9188.03,
+          "plinea": 59.62,
+          "fp": 0.97,
+          "tdh": 4.96
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 6},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 173.56,
+          "pled": 60.75,
+          "flujo": 10023.3,
+          "plinea": 65.02,
+          "fp": 0.98,
+          "tdh": 4.88
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 6},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 188.03,
+          "pled": 65.81,
+          "flujo": 10858.58,
+          "plinea": 70.42,
+          "fp": 0.98,
+          "tdh": 4.8
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 7},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 202.49,
+          "pled": 70.87,
+          "flujo": 11693.85,
+          "plinea": 75.82,
+          "fp": 0.99,
+          "tdh": 4.72
+        }
+      }
+    ]
+  },
+  "XITANIUM 75W 0.12-0.40A 215V TD 230V": {
+    "combinaciones_validas": [
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 3},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 104.14,
+          "pled": 36.45,
+          "flujo": 6013.98,
+          "plinea": "ND",
+          "fp": "ND",
+          "tdh": "ND"
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 3},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 121.49,
+          "pled": 42.52,
+          "flujo": 7016.31,
+          "plinea": "ND",
+          "fp": "ND",
+          "tdh": "ND"
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 4},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 138.85,
+          "pled": 48.6,
+          "flujo": 8018.64,
+          "plinea": "ND",
+          "fp": "ND",
+          "tdh": "ND"
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 4},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 156.21,
+          "pled": 54.67,
+          "flujo": 9020.97,
+          "plinea": "ND",
+          "fp": "ND",
+          "tdh": "ND"
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 5},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 173.56,
+          "pled": 60.75,
+          "flujo": 10023.3,
+          "plinea": "ND",
+          "fp": "ND",
+          "tdh": "ND"
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 5},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 190.92,
+          "pled": 66.82,
+          "flujo": 11025.63,
+          "plinea": "ND",
+          "fp": "ND",
+          "tdh": "ND"
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 6},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 208.28,
+          "pled": 72.9,
+          "flujo": 12027.96,
+          "plinea": "ND",
+          "fp": "ND",
+          "tdh": "ND"
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 2},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 101.25,
+          "pled": 35.44,
+          "flujo": 5846.93,
+          "plinea": "ND",
+          "fp": "ND",
+          "tdh": "ND"
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 3},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 121.49,
+          "pled": 42.52,
+          "flujo": 7016.31,
+          "plinea": "ND",
+          "fp": "ND",
+          "tdh": "ND"
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 3},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 141.74,
+          "pled": 49.61,
+          "flujo": 8185.7,
+          "plinea": "ND",
+          "fp": "ND",
+          "tdh": "ND"
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 4},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 161.99,
+          "pled": 56.7,
+          "flujo": 9355.08,
+          "plinea": "ND",
+          "fp": "ND",
+          "tdh": "ND"
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 4},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 182.24,
+          "pled": 63.78,
+          "flujo": 10524.47,
+          "plinea": "ND",
+          "fp": "ND",
+          "tdh": "ND"
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 5},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 202.49,
+          "pled": 70.87,
+          "flujo": 11693.85,
+          "plinea": "ND",
+          "fp": "ND",
+          "tdh": "ND"
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA BR HV4 2ft 2200lm", "en_serie": 2},
+          {"modelo": "CERTA BR HV4 1ft 1100lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 121.6,
+          "pled": 42.56,
+          "flujo": 6290.0,
+          "plinea": "ND",
+          "fp": "ND",
+          "tdh": "ND"
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA BR HV4 2ft 2200lm", "en_serie": 3},
+          {"modelo": "CERTA BR HV4 1ft 1100lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 145.92,
+          "pled": 51.07,
+          "flujo": 7548.0,
+          "plinea": "ND",
+          "fp": "ND",
+          "tdh": "ND"
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA BR HV4 2ft 2200lm", "en_serie": 3},
+          {"modelo": "CERTA BR HV4 1ft 1100lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 170.24,
+          "pled": 59.58,
+          "flujo": 8806.0,
+          "plinea": "ND",
+          "fp": "ND",
+          "tdh": "ND"
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA BR HV4 2ft 2200lm", "en_serie": 4},
+          {"modelo": "CERTA BR HV4 1ft 1100lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 194.56,
+          "pled": 68.1,
+          "flujo": 10064.0,
+          "plinea": "ND",
+          "fp": "ND",
+          "tdh": "ND"
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 3},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 101.25,
+          "pled": 35.44,
+          "flujo": 5846.93,
+          "plinea": "ND",
+          "fp": "ND",
+          "tdh": "ND"
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 4},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 115.71,
+          "pled": 40.5,
+          "flujo": 6682.2,
+          "plinea": "ND",
+          "fp": "ND",
+          "tdh": "ND"
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 4},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 130.17,
+          "pled": 45.56,
+          "flujo": 7517.48,
+          "plinea": "ND",
+          "fp": "ND",
+          "tdh": "ND"
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 5},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 144.64,
+          "pled": 50.62,
+          "flujo": 8352.75,
+          "plinea": "ND",
+          "fp": "ND",
+          "tdh": "ND"
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 5},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 159.1,
+          "pled": 55.69,
+          "flujo": 9188.03,
+          "plinea": "ND",
+          "fp": "ND",
+          "tdh": "ND"
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 6},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 173.56,
+          "pled": 60.75,
+          "flujo": 10023.3,
+          "plinea": "ND",
+          "fp": "ND",
+          "tdh": "ND"
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 6},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 188.03,
+          "pled": 65.81,
+          "flujo": 10858.58,
+          "plinea": "ND",
+          "fp": "ND",
+          "tdh": "ND"
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 7},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 202.49,
+          "pled": 70.87,
+          "flujo": 11693.85,
+          "plinea": "ND",
+          "fp": "ND",
+          "tdh": "ND"
+        }
+      }
+    ]
+  },
+  "ENERGY SUPPLY DRV-01": {
+    "combinaciones_validas": [
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 0},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 14.26,
+          "pled": 3.99,
+          "flujo": 699.3,
+          "plinea": 4.54,
+          "fp": 0.44,
+          "tdh": 20.0
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX LUPA", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 11.41,
+          "pled": 3.2,
+          "flujo": 559.44,
+          "plinea": 3.63,
+          "fp": 0.44,
+          "tdh": 20.0
+        }
+      }
+    ]
+  },
+  "LC 50W 250-400mA 140V o4a lp ADV DALI": {
+    "combinaciones_validas": [
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 1},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 52.07,
+          "pled": 18.22,
+          "flujo": 3006.99,
+          "plinea": 22.56,
+          "fp": 0.87,
+          "tdh": 0.22
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 2},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 69.43,
+          "pled": 24.3,
+          "flujo": 4009.32,
+          "plinea": 28.62,
+          "fp": 0.92,
+          "tdh": 12.83
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 2},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 86.78,
+          "pled": 30.37,
+          "flujo": 5011.65,
+          "plinea": 34.9,
+          "fp": 0.94,
+          "tdh": 10.97
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 3},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 104.14,
+          "pled": 36.45,
+          "flujo": 6013.98,
+          "plinea": 41.26,
+          "fp": 0.96,
+          "tdh": 9.62
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 3},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 121.49,
+          "pled": 42.52,
+          "flujo": 7016.31,
+          "plinea": 47.69,
+          "fp": 0.97,
+          "tdh": 8.67
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 4},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 138.85,
+          "pled": 48.6,
+          "flujo": 8018.64,
+          "plinea": 53.99,
+          "fp": 0.98,
+          "tdh": 7.72
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 1},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 60.75,
+          "pled": 21.26,
+          "flujo": 3508.16,
+          "plinea": 25.5,
+          "fp": 0.9,
+          "tdh": 13.96
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 2},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 81.0,
+          "pled": 28.35,
+          "flujo": 4677.54,
+          "plinea": 32.78,
+          "fp": 0.93,
+          "tdh": 11.51
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 2},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 101.25,
+          "pled": 35.44,
+          "flujo": 5846.93,
+          "plinea": 40.18,
+          "fp": 0.96,
+          "tdh": 9.78
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 3},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 121.49,
+          "pled": 42.52,
+          "flujo": 7016.31,
+          "plinea": 47.69,
+          "fp": 0.97,
+          "tdh": 8.67
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA BR HV4 2ft 2200lm", "en_serie": 1},
+          {"modelo": "CERTA BR HV4 1ft 1100lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 72.96,
+          "pled": 25.54,
+          "flujo": 3774.0,
+          "plinea": 29.86,
+          "fp": 0.93,
+          "tdh": 12.36
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA BR HV4 2ft 2200lm", "en_serie": 2},
+          {"modelo": "CERTA BR HV4 1ft 1100lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 97.28,
+          "pled": 34.05,
+          "flujo": 5032.0,
+          "plinea": 38.69,
+          "fp": 0.95,
+          "tdh": 9.99
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA BR HV4 2ft 2200lm", "en_serie": 2},
+          {"modelo": "CERTA BR HV4 1ft 1100lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 121.6,
+          "pled": 42.56,
+          "flujo": 6290.0,
+          "plinea": 47.73,
+          "fp": 0.97,
+          "tdh": 8.66
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 2},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 57.85,
+          "pled": 20.25,
+          "flujo": 3341.1,
+          "plinea": 24.43,
+          "fp": 0.89,
+          "tdh": 14.34
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 2},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 72.32,
+          "pled": 25.31,
+          "flujo": 4176.38,
+          "plinea": 29.64,
+          "fp": 0.92,
+          "tdh": 12.45
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 3},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 86.78,
+          "pled": 30.37,
+          "flujo": 5011.65,
+          "plinea": 34.9,
+          "fp": 0.94,
+          "tdh": 10.97
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 3},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 101.25,
+          "pled": 35.44,
+          "flujo": 5846.93,
+          "plinea": 40.18,
+          "fp": 0.96,
+          "tdh": 9.78
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 4},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 115.71,
+          "pled": 40.5,
+          "flujo": 6682.2,
+          "plinea": 45.56,
+          "fp": 0.97,
+          "tdh": 8.98
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 4},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 130.17,
+          "pled": 45.56,
+          "flujo": 7517.48,
+          "plinea": 50.85,
+          "fp": 0.97,
+          "tdh": 8.19
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX LUPA", "en_serie": 5}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 57.85,
+          "pled": 20.25,
+          "flujo": 3341.1,
+          "plinea": 24.43,
+          "fp": 0.89,
+          "tdh": 14.34
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX LUPA", "en_serie": 6}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 69.43,
+          "pled": 24.3,
+          "flujo": 4009.32,
+          "plinea": 28.62,
+          "fp": 0.92,
+          "tdh": 12.83
+        }
+      }
+    ]
+  },
+  "LCA 50W 100-400mA one4all Ip PRE DALI II": {
+    "combinaciones_validas": [
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 1},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 52.07,
+          "pled": 18.22,
+          "flujo": 3006.99,
+          "plinea": 20.88,
+          "fp": 0.92,
+          "tdh": 12.26
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 2},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 69.43,
+          "pled": 24.3,
+          "flujo": 4009.32,
+          "plinea": 27.39,
+          "fp": 0.94,
+          "tdh": 10.23
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 2},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 86.78,
+          "pled": 30.37,
+          "flujo": 5011.65,
+          "plinea": 33.85,
+          "fp": 0.95,
+          "tdh": 8.66
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 3},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 104.14,
+          "pled": 36.45,
+          "flujo": 6013.98,
+          "plinea": 40.27,
+          "fp": 0.96,
+          "tdh": 7.36
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 3},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 121.49,
+          "pled": 42.52,
+          "flujo": 7016.31,
+          "plinea": 46.99,
+          "fp": 0.97,
+          "tdh": 6.75
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 4},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 138.85,
+          "pled": 48.6,
+          "flujo": 8018.64,
+          "plinea": 53.7,
+          "fp": 0.98,
+          "tdh": 6.14
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 1},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 60.75,
+          "pled": 21.26,
+          "flujo": 3508.16,
+          "plinea": 24.1,
+          "fp": 0.93,
+          "tdh": 11.25
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 2},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 81.0,
+          "pled": 28.35,
+          "flujo": 4677.54,
+          "plinea": 31.71,
+          "fp": 0.95,
+          "tdh": 9.16
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 2},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 101.25,
+          "pled": 35.44,
+          "flujo": 5846.93,
+          "plinea": 39.16,
+          "fp": 0.96,
+          "tdh": 7.46
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 3},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 121.49,
+          "pled": 42.52,
+          "flujo": 7016.31,
+          "plinea": 46.99,
+          "fp": 0.97,
+          "tdh": 6.75
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA BR HV4 2ft 2200lm", "en_serie": 1},
+          {"modelo": "CERTA BR HV4 1ft 1100lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 72.96,
+          "pled": 25.54,
+          "flujo": 3774.0,
+          "plinea": 28.72,
+          "fp": 0.94,
+          "tdh": 9.87
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA BR HV4 2ft 2200lm", "en_serie": 2},
+          {"modelo": "CERTA BR HV4 1ft 1100lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 97.28,
+          "pled": 34.05,
+          "flujo": 5032.0,
+          "plinea": 37.69,
+          "fp": 0.96,
+          "tdh": 7.74
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA BR HV4 2ft 2200lm", "en_serie": 2},
+          {"modelo": "CERTA BR HV4 1ft 1100lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 121.6,
+          "pled": 42.56,
+          "flujo": 6290.0,
+          "plinea": 47.03,
+          "fp": 0.97,
+          "tdh": 6.74
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 2},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 57.85,
+          "pled": 20.25,
+          "flujo": 3341.1,
+          "plinea": 23.0,
+          "fp": 0.93,
+          "tdh": 11.58
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 2},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 72.32,
+          "pled": 25.31,
+          "flujo": 4176.38,
+          "plinea": 28.48,
+          "fp": 0.94,
+          "tdh": 9.92
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 3},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 86.78,
+          "pled": 30.37,
+          "flujo": 5011.65,
+          "plinea": 33.85,
+          "fp": 0.95,
+          "tdh": 8.66
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 3},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 101.25,
+          "pled": 35.44,
+          "flujo": 5846.93,
+          "plinea": 39.16,
+          "fp": 0.96,
+          "tdh": 7.46
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 4},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 115.71,
+          "pled": 40.5,
+          "flujo": 6682.2,
+          "plinea": 44.75,
+          "fp": 0.97,
+          "tdh": 6.95
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 4},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 130.17,
+          "pled": 45.56,
+          "flujo": 7517.48,
+          "plinea": 50.34,
+          "fp": 0.97,
+          "tdh": 6.44
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX LUPA", "en_serie": 5}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 57.85,
+          "pled": 20.25,
+          "flujo": 3341.1,
+          "plinea": 23.0,
+          "fp": 0.93,
+          "tdh": 11.58
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX LUPA", "en_serie": 6}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 69.43,
+          "pled": 24.3,
+          "flujo": 4009.32,
+          "plinea": 27.39,
+          "fp": 0.94,
+          "tdh": 10.23
+        }
+      }
+    ]
+  },
+  "LC 75W 250-400mA 220V o4a lp ADV": {
+    "combinaciones_validas": [
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 3},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 121.49,
+          "pled": 42.52,
+          "flujo": 7016.31,
+          "plinea": 46.69,
+          "fp": 0.97,
+          "tdh": 12.0
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 4},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 138.85,
+          "pled": 48.6,
+          "flujo": 8018.64,
+          "plinea": 52.92,
+          "fp": 0.97,
+          "tdh": 10.78
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 4},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 156.21,
+          "pled": 54.67,
+          "flujo": 9020.97,
+          "plinea": 59.22,
+          "fp": 0.98,
+          "tdh": 9.81
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 5},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 173.56,
+          "pled": 60.75,
+          "flujo": 10023.3,
+          "plinea": 65.57,
+          "fp": 0.98,
+          "tdh": 9.27
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 5},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 190.92,
+          "pled": 66.82,
+          "flujo": 11025.63,
+          "plinea": 71.88,
+          "fp": 0.99,
+          "tdh": 8.73
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 6},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 208.28,
+          "pled": 72.9,
+          "flujo": 12027.96,
+          "plinea": 78.14,
+          "fp": 0.99,
+          "tdh": 8.19
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 3},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 121.49,
+          "pled": 42.52,
+          "flujo": 7016.31,
+          "plinea": 46.69,
+          "fp": 0.97,
+          "tdh": 12.0
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 3},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 141.74,
+          "pled": 49.61,
+          "flujo": 8185.7,
+          "plinea": 53.97,
+          "fp": 0.97,
+          "tdh": 10.58
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 4},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 161.99,
+          "pled": 56.7,
+          "flujo": 9355.08,
+          "plinea": 61.35,
+          "fp": 0.98,
+          "tdh": 9.63
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 4},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 182.24,
+          "pled": 63.78,
+          "flujo": 10524.47,
+          "plinea": 68.73,
+          "fp": 0.98,
+          "tdh": 9.0
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 5},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 202.49,
+          "pled": 70.87,
+          "flujo": 11693.85,
+          "plinea": 76.06,
+          "fp": 0.99,
+          "tdh": 8.37
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA BR HV4 2ft 2200lm", "en_serie": 2},
+          {"modelo": "CERTA BR HV4 1ft 1100lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 121.6,
+          "pled": 42.56,
+          "flujo": 6290.0,
+          "plinea": 46.73,
+          "fp": 0.97,
+          "tdh": 11.99
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA BR HV4 2ft 2200lm", "en_serie": 3},
+          {"modelo": "CERTA BR HV4 1ft 1100lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 145.92,
+          "pled": 51.07,
+          "flujo": 7548.0,
+          "plinea": 55.47,
+          "fp": 0.98,
+          "tdh": 10.29
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA BR HV4 2ft 2200lm", "en_serie": 3},
+          {"modelo": "CERTA BR HV4 1ft 1100lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 170.24,
+          "pled": 59.58,
+          "flujo": 8806.0,
+          "plinea": 64.36,
+          "fp": 0.98,
+          "tdh": 9.37
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA BR HV4 2ft 2200lm", "en_serie": 4},
+          {"modelo": "CERTA BR HV4 1ft 1100lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 194.56,
+          "pled": 68.1,
+          "flujo": 10064.0,
+          "plinea": 73.2,
+          "fp": 0.99,
+          "tdh": 8.61
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 4},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 115.71,
+          "pled": 40.5,
+          "flujo": 6682.2,
+          "plinea": 44.64,
+          "fp": 0.96,
+          "tdh": 12.4
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 4},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 130.17,
+          "pled": 45.56,
+          "flujo": 7517.48,
+          "plinea": 49.76,
+          "fp": 0.97,
+          "tdh": 11.39
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 5},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 144.64,
+          "pled": 50.62,
+          "flujo": 8352.75,
+          "plinea": 55.01,
+          "fp": 0.98,
+          "tdh": 10.38
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 5},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 159.1,
+          "pled": 55.69,
+          "flujo": 9188.03,
+          "plinea": 60.28,
+          "fp": 0.98,
+          "tdh": 9.72
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 6},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 173.56,
+          "pled": 60.75,
+          "flujo": 10023.3,
+          "plinea": 65.57,
+          "fp": 0.98,
+          "tdh": 9.27
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 6},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 188.03,
+          "pled": 65.81,
+          "flujo": 10858.58,
+          "plinea": 70.83,
+          "fp": 0.99,
+          "tdh": 8.82
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 7},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 202.49,
+          "pled": 70.87,
+          "flujo": 11693.85,
+          "plinea": 76.06,
+          "fp": 0.99,
+          "tdh": 8.37
+        }
+      }
+    ]
+  },
+  "LF-GIR010Y-A0310U": {
+    "combinaciones_validas": [
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 1},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 34.44,
+          "pled": 10.68,
+          "flujo": 1818.18,
+          "plinea": 12.03,
+          "fp": 0.9,
+          "tdh": 0.89
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 1},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 28.7,
+          "pled": 8.9,
+          "flujo": 1515.15,
+          "plinea": 10.29,
+          "fp": 0.87,
+          "tdh": 0.88
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX LUPA", "en_serie": 3}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 34.44,
+          "pled": 10.68,
+          "flujo": 1818.18,
+          "plinea": 12.03,
+          "fp": 0.9,
+          "tdh": 0.89
+        }
+      }
+    ]
+  },
+  "DEMASLED DRV-25 6W 280mA 3-20Vdc IP20": {
+    "combinaciones_validas": [
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 0},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 17.12,
+          "pled": 4.79,
+          "flujo": 839.16,
+          "plinea": 9.59,
+          "fp": 0.9,
+          "tdh": 20.0
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 0},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 19.97,
+          "pled": 5.59,
+          "flujo": 979.02,
+          "plinea": 11.18,
+          "fp": 0.9,
+          "tdh": 20.0
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 0},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 14.26,
+          "pled": 3.99,
+          "flujo": 699.3,
+          "plinea": 7.99,
+          "fp": 0.9,
+          "tdh": 20.0
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX LUPA", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 11.41,
+          "pled": 3.2,
+          "flujo": 559.44,
+          "plinea": 6.39,
+          "fp": 0.9,
+          "tdh": 20.0
+        }
+      }
+    ]
+  },
+  "DEMASLED DRV-17 18W 300mA 36-54Vdc IP20": {
+    "combinaciones_validas": [
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 1},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 51.56,
+          "pled": 15.47,
+          "flujo": 2657.34,
+          "plinea": 30.93,
+          "fp": 0.9,
+          "tdh": 20.0
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 1},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 40.1,
+          "pled": 12.03,
+          "flujo": 2066.82,
+          "plinea": 24.06,
+          "fp": 0.9,
+          "tdh": 20.0
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA BR HV4 2ft 2200lm", "en_serie": 1},
+          {"modelo": "CERTA BR HV4 1ft 1100lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 48.0,
+          "pled": 14.4,
+          "flujo": 2220.0,
+          "plinea": 28.8,
+          "fp": 0.9,
+          "tdh": 20.0
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 1},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 42.96,
+          "pled": 12.89,
+          "flujo": 2214.45,
+          "plinea": 25.78,
+          "fp": 0.9,
+          "tdh": 20.0
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX LUPA", "en_serie": 4}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 45.83,
+          "pled": 13.75,
+          "flujo": 2362.08,
+          "plinea": 27.5,
+          "fp": 0.9,
+          "tdh": 20.0
+        }
+      }
+    ]
+  },
+  "LC 19/200-350/54 flexC lp SNC4": {
+    "combinaciones_validas": [
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 1},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 34.71,
+          "pled": 12.15,
+          "flujo": 2004.66,
+          "plinea": 14.46,
+          "fp": 0.93,
+          "tdh": 12.39
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 1},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 52.07,
+          "pled": 18.22,
+          "flujo": 3006.99,
+          "plinea": 21.38,
+          "fp": 0.97,
+          "tdh": 8.47
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 0},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 20.25,
+          "pled": 7.09,
+          "flujo": 1169.39,
+          "plinea": 10.0,
+          "fp": 0.78,
+          "tdh": 17.4
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 1},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 40.5,
+          "pled": 14.17,
+          "flujo": 2338.77,
+          "plinea": 16.8,
+          "fp": 0.94,
+          "tdh": 10.9
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA BR HV4 2ft 2200lm", "en_serie": 0},
+          {"modelo": "CERTA BR HV4 1ft 1100lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 24.32,
+          "pled": 8.51,
+          "flujo": 1258.0,
+          "plinea": 10.57,
+          "fp": 0.88,
+          "tdh": 15.74
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA BR HV4 2ft 2200lm", "en_serie": 1},
+          {"modelo": "CERTA BR HV4 1ft 1100lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 48.64,
+          "pled": 17.02,
+          "flujo": 2516.0,
+          "plinea": 20.07,
+          "fp": 0.96,
+          "tdh": 9.19
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 1},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 28.93,
+          "pled": 10.12,
+          "flujo": 1670.55,
+          "plinea": 12.33,
+          "fp": 0.91,
+          "tdh": 13.91
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 1},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 43.39,
+          "pled": 15.19,
+          "flujo": 2505.83,
+          "plinea": 17.97,
+          "fp": 0.95,
+          "tdh": 10.29
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX LUPA", "en_serie": 2}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 23.14,
+          "pled": 8.1,
+          "flujo": 1336.44,
+          "plinea": 10.11,
+          "fp": 0.88,
+          "tdh": 16.22
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX LUPA", "en_serie": 3}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 34.71,
+          "pled": 12.15,
+          "flujo": 2004.66,
+          "plinea": 14.46,
+          "fp": 0.93,
+          "tdh": 12.39
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX LUPA", "en_serie": 4}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 46.28,
+          "pled": 16.2,
+          "flujo": 2672.88,
+          "plinea": 19.13,
+          "fp": 0.96,
+          "tdh": 9.68
+        }
+      }
+    ]
+  },
+  "Xitanium (350mA) 44W 200-350mA 125V DS 230V G4": {
+    "combinaciones_validas": [
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 2},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 86.78,
+          "pled": 30.37,
+          "flujo": 5011.65,
+          "plinea": 33.11,
+          "fp": 0.97,
+          "tdh": 8.05
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 3},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 104.14,
+          "pled": 36.45,
+          "flujo": 6013.98,
+          "plinea": 39.5,
+          "fp": 0.98,
+          "tdh": 9.39
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 3},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 121.49,
+          "pled": 42.52,
+          "flujo": 7016.31,
+          "plinea": 45.91,
+          "fp": 0.98,
+          "tdh": 7.87
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 2},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 81.0,
+          "pled": 28.35,
+          "flujo": 4677.54,
+          "plinea": 31.02,
+          "fp": 0.97,
+          "tdh": 8.74
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 2},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 101.25,
+          "pled": 35.44,
+          "flujo": 5846.93,
+          "plinea": 38.42,
+          "fp": 0.98,
+          "tdh": 9.64
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 3},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 121.49,
+          "pled": 42.52,
+          "flujo": 7016.31,
+          "plinea": 45.91,
+          "fp": 0.98,
+          "tdh": 7.87
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA BR HV4 2ft 2200lm", "en_serie": 1},
+          {"modelo": "CERTA BR HV4 1ft 1100lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 72.96,
+          "pled": 25.54,
+          "flujo": 3774.0,
+          "plinea": 28.09,
+          "fp": 0.97,
+          "tdh": 9.12
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA BR HV4 2ft 2200lm", "en_serie": 2},
+          {"modelo": "CERTA BR HV4 1ft 1100lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 97.28,
+          "pled": 34.05,
+          "flujo": 5032.0,
+          "plinea": 36.97,
+          "fp": 0.97,
+          "tdh": 9.99
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA BR HV4 2ft 2200lm", "en_serie": 2},
+          {"modelo": "CERTA BR HV4 1ft 1100lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 121.6,
+          "pled": 42.56,
+          "flujo": 6290.0,
+          "plinea": 45.95,
+          "fp": 0.98,
+          "tdh": 7.86
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 2},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 72.32,
+          "pled": 25.31,
+          "flujo": 4176.38,
+          "plinea": 27.86,
+          "fp": 0.97,
+          "tdh": 9.15
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 3},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 86.78,
+          "pled": 30.37,
+          "flujo": 5011.65,
+          "plinea": 33.11,
+          "fp": 0.97,
+          "tdh": 8.05
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 3},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 101.25,
+          "pled": 35.44,
+          "flujo": 5846.93,
+          "plinea": 38.42,
+          "fp": 0.98,
+          "tdh": 9.64
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 4},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 115.71,
+          "pled": 40.5,
+          "flujo": 6682.2,
+          "plinea": 43.78,
+          "fp": 0.98,
+          "tdh": 8.38
+        }
+      }
+    ]
+  },
+  "Xitanium (300mA) 44W 200-350mA 125V DS 230V G4": {
+    "combinaciones_validas": [
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 2},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 85.93,
+          "pled": 25.78,
+          "flujo": 4428.9,
+          "plinea": 28.21,
+          "fp": 0.96,
+          "tdh": 8.89
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 3},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 103.12,
+          "pled": 30.93,
+          "flujo": 5314.68,
+          "plinea": 33.62,
+          "fp": 0.97,
+          "tdh": 8.14
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 3},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 120.3,
+          "pled": 36.09,
+          "flujo": 6200.46,
+          "plinea": 38.98,
+          "fp": 0.97,
+          "tdh": 8.18
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 2},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 80.2,
+          "pled": 24.06,
+          "flujo": 4133.64,
+          "plinea": 26.43,
+          "fp": 0.96,
+          "tdh": 9.62
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 2},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 100.25,
+          "pled": 30.08,
+          "flujo": 5167.05,
+          "plinea": 32.72,
+          "fp": 0.97,
+          "tdh": 8.26
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 3},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 120.3,
+          "pled": 36.09,
+          "flujo": 6200.46,
+          "plinea": 38.98,
+          "fp": 0.97,
+          "tdh": 8.18
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA BR HV4 2ft 2200lm", "en_serie": 1},
+          {"modelo": "CERTA BR HV4 1ft 1100lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 72.0,
+          "pled": 21.6,
+          "flujo": 3330.0,
+          "plinea": 24.31,
+          "fp": 0.93,
+          "tdh": 0.19
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA BR HV4 2ft 2200lm", "en_serie": 2},
+          {"modelo": "CERTA BR HV4 1ft 1100lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 96.0,
+          "pled": 28.8,
+          "flujo": 4440.0,
+          "plinea": 31.39,
+          "fp": 0.97,
+          "tdh": 8.43
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA BR HV4 2ft 2200lm", "en_serie": 2},
+          {"modelo": "CERTA BR HV4 1ft 1100lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 120.0,
+          "pled": 36.0,
+          "flujo": 5550.0,
+          "plinea": 38.88,
+          "fp": 0.97,
+          "tdh": 8.2
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 2},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 71.61,
+          "pled": 21.48,
+          "flujo": 3690.75,
+          "plinea": 24.31,
+          "fp": 0.93,
+          "tdh": 0.25
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 3},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 85.93,
+          "pled": 25.78,
+          "flujo": 4428.9,
+          "plinea": 28.21,
+          "fp": 0.96,
+          "tdh": 8.89
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 3},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 100.25,
+          "pled": 30.08,
+          "flujo": 5167.05,
+          "plinea": 32.72,
+          "fp": 0.97,
+          "tdh": 8.26
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 4},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 114.57,
+          "pled": 34.37,
+          "flujo": 5905.2,
+          "plinea": 37.2,
+          "fp": 0.97,
+          "tdh": 8.53
+        }
+      }
+    ]
+  },
+  "Xitanium (350mA) 65W 200-350mA 185V DS 230V G4": {
+    "combinaciones_validas": [
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 3},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 121.49,
+          "pled": 42.52,
+          "flujo": 7016.31,
+          "plinea": 46.31,
+          "fp": 0.95,
+          "tdh": 7.46
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 4},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 138.85,
+          "pled": 48.6,
+          "flujo": 8018.64,
+          "plinea": 52.8,
+          "fp": 0.96,
+          "tdh": 7.04
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 4},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 156.21,
+          "pled": 54.67,
+          "flujo": 9020.97,
+          "plinea": 59.3,
+          "fp": 0.96,
+          "tdh": 7.47
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 5},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 173.56,
+          "pled": 60.75,
+          "flujo": 10023.3,
+          "plinea": 65.82,
+          "fp": 0.97,
+          "tdh": 7.97
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 3},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 121.49,
+          "pled": 42.52,
+          "flujo": 7016.31,
+          "plinea": 46.31,
+          "fp": 0.95,
+          "tdh": 7.46
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 3},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 141.74,
+          "pled": 49.61,
+          "flujo": 8185.7,
+          "plinea": 53.87,
+          "fp": 0.96,
+          "tdh": 6.97
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 4},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 161.99,
+          "pled": 56.7,
+          "flujo": 9355.08,
+          "plinea": 61.47,
+          "fp": 0.97,
+          "tdh": 7.21
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 4},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 182.24,
+          "pled": 63.78,
+          "flujo": 10524.47,
+          "plinea": 69.11,
+          "fp": 0.97,
+          "tdh": 7.85
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA BR HV4 2ft 2200lm", "en_serie": 2},
+          {"modelo": "CERTA BR HV4 1ft 1100lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 121.6,
+          "pled": 42.56,
+          "flujo": 6290.0,
+          "plinea": 46.35,
+          "fp": 0.95,
+          "tdh": 7.46
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA BR HV4 2ft 2200lm", "en_serie": 3},
+          {"modelo": "CERTA BR HV4 1ft 1100lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 145.92,
+          "pled": 51.07,
+          "flujo": 7548.0,
+          "plinea": 55.44,
+          "fp": 0.96,
+          "tdh": 6.86
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA BR HV4 2ft 2200lm", "en_serie": 3},
+          {"modelo": "CERTA BR HV4 1ft 1100lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 170.24,
+          "pled": 59.58,
+          "flujo": 8806.0,
+          "plinea": 64.56,
+          "fp": 0.97,
+          "tdh": 6.85
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 4},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 130.17,
+          "pled": 45.56,
+          "flujo": 7517.48,
+          "plinea": 49.56,
+          "fp": 0.96,
+          "tdh": 7.25
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 5},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 144.64,
+          "pled": 50.62,
+          "flujo": 8352.75,
+          "plinea": 54.96,
+          "fp": 0.96,
+          "tdh": 6.9
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 5},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 159.1,
+          "pled": 55.69,
+          "flujo": 9188.03,
+          "plinea": 60.39,
+          "fp": 0.97,
+          "tdh": 7.34
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 6},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 173.56,
+          "pled": 60.75,
+          "flujo": 10023.3,
+          "plinea": 65.82,
+          "fp": 0.97,
+          "tdh": 7.97
+        }
+      }
+    ]
+  },
+  "Xitanium (300mA) 65W 200-350mA 185V DS 230V G4": {
+    "combinaciones_validas": [
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 3},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 120.3,
+          "pled": 36.09,
+          "flujo": 6200.46,
+          "plinea": 40.26,
+          "fp": 0.94,
+          "tdh": 0.22
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 4},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 137.49,
+          "pled": 41.25,
+          "flujo": 7086.24,
+          "plinea": 44.81,
+          "fp": 0.96,
+          "tdh": 8.59
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 4},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 154.67,
+          "pled": 46.4,
+          "flujo": 7972.02,
+          "plinea": 50.29,
+          "fp": 0.97,
+          "tdh": 7.97
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "ARLUX 2ft SAM 48", "en_serie": 5},
+          {"modelo": "ARLUX 1ft SAM 24", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 171.86,
+          "pled": 51.56,
+          "flujo": 8857.8,
+          "plinea": 55.75,
+          "fp": 0.97,
+          "tdh": 8.21
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 3},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 120.3,
+          "pled": 36.09,
+          "flujo": 6200.46,
+          "plinea": 40.26,
+          "fp": 0.94,
+          "tdh": 0.22
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 3},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 140.35,
+          "pled": 42.11,
+          "flujo": 7233.87,
+          "plinea": 45.72,
+          "fp": 0.97,
+          "tdh": 8.49
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 4},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 160.4,
+          "pled": 48.12,
+          "flujo": 8267.28,
+          "plinea": 52.11,
+          "fp": 0.97,
+          "tdh": 7.96
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 2200lm", "en_serie": 4},
+          {"modelo": "CERTA HV4 1ft 1100lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 180.45,
+          "pled": 54.14,
+          "flujo": 9300.69,
+          "plinea": 58.54,
+          "fp": 0.97,
+          "tdh": 8.05
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA BR HV4 2ft 2200lm", "en_serie": 2},
+          {"modelo": "CERTA BR HV4 1ft 1100lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 120.0,
+          "pled": 36.0,
+          "flujo": 5550.0,
+          "plinea": 40.26,
+          "fp": 0.93,
+          "tdh": 0.25
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA BR HV4 2ft 2200lm", "en_serie": 3},
+          {"modelo": "CERTA BR HV4 1ft 1100lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 144.0,
+          "pled": 43.2,
+          "flujo": 6660.0,
+          "plinea": 46.89,
+          "fp": 0.97,
+          "tdh": 8.36
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA BR HV4 2ft 2200lm", "en_serie": 3},
+          {"modelo": "CERTA BR HV4 1ft 1100lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 168.0,
+          "pled": 50.4,
+          "flujo": 7770.0,
+          "plinea": 54.53,
+          "fp": 0.97,
+          "tdh": 8.28
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 4},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 128.89,
+          "pled": 38.67,
+          "flujo": 6643.35,
+          "plinea": 42.05,
+          "fp": 0.96,
+          "tdh": 8.9
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 5},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 143.22,
+          "pled": 42.96,
+          "flujo": 7381.5,
+          "plinea": 46.64,
+          "fp": 0.97,
+          "tdh": 8.38
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 5},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 1}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 157.54,
+          "pled": 47.26,
+          "flujo": 8119.65,
+          "plinea": 51.2,
+          "fp": 0.97,
+          "tdh": 7.99
+        }
+      },
+      {
+        "placas": [
+          {"modelo": "CERTA HV4 2ft 1550lm", "en_serie": 6},
+          {"modelo": "CERTA HV4 1ft 775lm", "en_serie": 0}
+        ],
+        "caminos_paralelo": 1,
+        "parametros": {
+          "uled": 171.86,
+          "pled": 51.56,
+          "flujo": 8857.8,
+          "plinea": 55.75,
+          "fp": 0.97,
+          "tdh": 8.21
+        }
+      }
+    ]
+  }
+}
