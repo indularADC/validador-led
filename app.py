@@ -26,6 +26,10 @@ if 'driver_match' not in st.session_state:
     st.session_state.driver_match = None
 if 'modelos_disponibles' not in st.session_state:
     st.session_state.modelos_disponibles = []
+if 'imagen_bytes' not in st.session_state:
+    st.session_state.imagen_bytes = None
+if 'imagen_origen' not in st.session_state:
+    st.session_state.imagen_origen = None
 
 # ───────── 4. CSS PERSONALIZADO ─────────
 st.markdown("""
@@ -128,6 +132,28 @@ def buscar_driver_ia(texto_ia, combinaciones, umbral=75):
             mejor_score, mejor_match = score, driver_key
     return mejor_match if mejor_score >= umbral else None
 
+def guardar_imagen_en_estado(origen, archivo):
+    """Guarda una copia estable de la imagen para evitar perderla entre reruns de Streamlit."""
+    if archivo is None:
+        return
+
+    nuevos_bytes = archivo.getvalue()
+
+    # Si cambia la imagen, limpiar resultado anterior para forzar una nueva lectura de IA.
+    if nuevos_bytes != st.session_state.imagen_bytes:
+        st.session_state.imagen_bytes = nuevos_bytes
+        st.session_state.imagen_origen = origen
+        st.session_state.driver_extraido = None
+        st.session_state.driver_match = None
+        st.session_state.modelos_disponibles = []
+
+def limpiar_imagen():
+    st.session_state.imagen_bytes = None
+    st.session_state.imagen_origen = None
+    st.session_state.driver_extraido = None
+    st.session_state.driver_match = None
+    st.session_state.modelos_disponibles = []
+
 # ───────── 8. INTERFAZ PRINCIPAL ─────────
 st.markdown('<h1 class="main-title">⚡ Validador Driver + Placas</h1>', unsafe_allow_html=True)
 init_db()
@@ -137,15 +163,11 @@ with st.sidebar:
     operador = st.text_input("👤 Operador", placeholder="Nombre", label_visibility="collapsed")
     st.markdown("---")
     if st.button("🔄 Reiniciar", type="secondary", use_container_width=True):
-        st.session_state.driver_extraido = None
-        st.session_state.driver_match = None
+        limpiar_imagen()
         st.rerun()
 
 # PESTAÑAS: Subir archivo o Tomar foto con cámara
 tab1, tab2 = st.tabs(["📂 Subir archivo", "📸 Tomar foto"])
-
-uploaded_file = None
-camera_photo = None
 
 with tab1:
     # Opción tradicional: subir desde galería o archivos del celular/computadora
@@ -155,29 +177,37 @@ with tab1:
         label_visibility="collapsed",
         key="uploaded_file"
     )
+    guardar_imagen_en_estado("archivo", uploaded_file)
 
 with tab2:
-    # Opción para tomar una foto directa con la cámara del celular
+    # Opción para tomar una foto directa con la cámara del celular.
+    # Importante: st.camera_input provoca reruns; por eso se guarda en session_state.
     camera_photo = st.camera_input(
         "📷 Posiciona el driver y toma la foto",
         key="camera_photo"
     )
+    guardar_imagen_en_estado("camara", camera_photo)
 
-# Prioridad: si se tomó una foto con cámara, usar esa. Si no, usar archivo subido.
-uploaded = camera_photo if camera_photo is not None else uploaded_file
-
-# Guardar los bytes una sola vez para evitar problemas de puntero al leer la imagen
-img_bytes = uploaded.getvalue() if uploaded is not None else None
+img_bytes = st.session_state.imagen_bytes
 
 # Visualización de imagen cargada
 if img_bytes:
-    st.success("✅ Imagen cargada")
+    origen = "cámara" if st.session_state.imagen_origen == "camara" else "archivo"
+    st.success(f"✅ Imagen cargada desde {origen}")
     with st.expander("🖼️ Ver imagen completa", expanded=False):
-        img_full = Image.open(io.BytesIO(img_bytes))
-        st.image(img_full, width=400)
+        try:
+            img_full = Image.open(io.BytesIO(img_bytes))
+            st.image(img_full, width=400)
+        except Exception as e:
+            st.error(f"❌ No se pudo abrir la imagen: {e}")
+            limpiar_imagen()
+            st.stop()
 
 # Cargar combinaciones
 combinaciones = cargar_combinaciones()
+if not combinaciones:
+    st.error("❌ No se encontró el archivo combinaciones_validas.json o está vacío")
+    st.stop()
 
 # Si hay un driver extraído previamente, mostrar formulario
 if st.session_state.driver_match and st.session_state.modelos_disponibles:
@@ -317,13 +347,18 @@ if st.session_state.driver_match and st.session_state.modelos_disponibles:
 
 # Botón para extraer driver
 if img_bytes and not st.session_state.driver_match:
-    if st.button("🔍 Extraer Driver", type="primary", use_container_width=True):
+    if st.button("🔍 Extraer Driver", type="primary", use_container_width=True, key="btn_extraer_driver"):
         if not operador:
             st.error("⚠️ Ingresá el operador en el menú lateral primero")
             st.stop()
         
+        imagen_a_procesar = st.session_state.imagen_bytes
+        if not imagen_a_procesar:
+            st.error("⚠️ La imagen se perdió durante la recarga. Tomá la foto nuevamente.")
+            st.stop()
+
         with st.spinner("🤖 Leyendo..."):
-            driver_leido = extraer_driver(img_bytes)
+            driver_leido = extraer_driver(imagen_a_procesar)
         
         if driver_leido:
             st.session_state.driver_extraido = driver_leido
